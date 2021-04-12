@@ -27,6 +27,7 @@ function App() {
                 name={item.name}
                 username={item.username}
                 website={item.website}
+                website={item.email}
                 key={item.id}
               />
             </div>

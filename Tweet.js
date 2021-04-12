@@ -16,7 +16,7 @@ function Tweet({ name, username, website }) {
             {"http://" + website}
           </a>
         </h5>
-        <a href="#" class="button">
+        <a href="#" class="Button">
           MORE DETAILS
         </a>
       </div>
