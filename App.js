@@ -3,7 +3,6 @@ import Tweet from "./Tweet";
 import axios from "axios";
 import "./App.css";
 
-
 function App() {
   const [users, setUsers] = useState({ hits: [] });
 
@@ -27,7 +26,13 @@ function App() {
                 name={item.name}
                 username={item.username}
                 website={item.website}
-                website={item.email}
+                email={item.email}
+                phone={item.phone}
+                company={item.company.name}
+                street={item.address.street}
+                suite={item.address.suite}
+                city={item.address.city}
+                zipcode={item.address.zipcode}
                 key={item.id}
               />
             </div>
